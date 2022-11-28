@@ -1,4 +1,10 @@
-### Hi there 👋
+# Hi，happy to see you here.👋
+
+❤️  dedicate to deep learning 
+
+🔨 focus on excellent algorithms(Object Detection)
+
+👯 model deployment and compression (⬅️ now concentrating on)
 
 <!--
 **dongL-Wu/dongL-Wu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -14,3 +20,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+
+![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=dongL-wu&show_icons=true&theme=radical)
