@@ -4,9 +4,10 @@
 
 **💥** Currently working at a game company for  user behavior modeling and analysis
 
-**💥** Computer Vision **💥**
 
-**💥** LLM Agent **💥**
+**💥** Computer Vision 
+
+**💥** LLM Agent 
 
 
 ## About
@@ -15,4 +16,4 @@
 
 ---
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=Tallisgo&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=tallisgo&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
