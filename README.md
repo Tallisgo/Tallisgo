@@ -1,24 +1,18 @@
-# Hi，happy to see you here.👋
+# Hi，welcome to here 👋
 
-❤️  dedicate to deep learning 
+## Experience
 
-🔨 focus on excellent algorithms(Object Detection)
+**💥** Currently working at a game company for  user behavior modeling and analysis
 
-👯 model deployment and compression (⬅️ now concentrating on)
+**💥** Computer Vision **💥**
 
-<!--
-**dongL-Wu/dongL-Wu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**💥** LLM Agent **💥**
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## About
 
-![Dusai's GitHub stats](https://github-readme-stats.vercel.app/api?username=Tallisgo&show_icons=true&theme=radical)
+- 📝 Blogs: [https://tallisgo.github.io/](https://tallisgo.github.io/)
+
+---
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=Tallisgo&show_icons=true&theme=radical&include_all_commits=true&count_private=true)
