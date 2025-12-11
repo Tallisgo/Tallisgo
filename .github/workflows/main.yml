@@ -1,16 +1,31 @@
-name: Waka Readme
+steps:
+  - name: Checkout repo
+    uses: actions/checkout@v3
 
-on:
-  workflow_dispatch:
-  schedule:
-    # Runs at 12am UTC
-    - cron: "0 0 * * *"
+  # 1. 使用你的 token 生成 GitHub Stats，并保存为本地 svg
+  - name: Generate GitHub Stats
+    run: |
+      mkdir -p assets
+      curl -H "Authorization: token ${{ secrets.STATS_TOKEN }}" \
+        "https://github-readme-stats.vercel.app/api?username=tallisgo&show_icons=true&theme=radical&include_all_commits=true&count_private=true" \
+        -o assets/github-stats.svg
 
-jobs:
-  update-readme:
-    name: Update this repo's README
-    runs-on: ubuntu-latest
-    steps:
-      - uses: athul/waka-readme@master
-        with:
-          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+  # 2. 更新 Wakatime
+  - name: Wakatime README
+    uses: athul/waka-readme@master
+    with:
+      WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+  # 3. 使用模板生成最终 README.md
+  - name: Build final README
+    run: |
+      cp README.template.md README.md
+
+  # 4. 提交更新
+  - name: Commit and push changes
+    run: |
+      git config user.name "github-actions"
+      git config user.email "github-actions@github.com"
+      git add .
+      git commit -m "Update README" || echo "No changes to commit"
+      git push
